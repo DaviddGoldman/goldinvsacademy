@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px; }
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+/* Header */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0; }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px; }
+
+.logo img {
+  height: 2px; }
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px; }
+
+/* Hero section */
+#hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 0; }
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px; }
+
+.cta-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; }
+
+.cta-button:hover {
+  background-color: #2186c4; }
+
+/* About section */
+#about {
+  background-color: #f8f8f8;
+  padding: 80px 0; }
+
+/* Courses section */
+#courses {
+  background-color: #fff;
+  padding: 80px 0; }
+
+#courses ul li:before {
+  content: "\2022";
+  color: #3498db;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; }
+
+/* Tutors section */
+#tutors {
+  background-color: #f8f8f8;
+  padding: 80px 0; }
+
+/* Community section */
+#community {
+  background-color: #fff;
+  padding: 80px 0; }
+
+/* Testimonials section */
+#testimonials {
+  background-color: #f8f8f8;
+  padding: 80px 0; }
+
+.testimonial {
+  margin-bottom: 40px;
+  text-align: center; }
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px; }
+
+/* Contact section */
+#contact {
+  background-color: #fff;
+  padding: 80px 0; }
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0; }
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px; }
+
+.footer-menu li {
+  margin-left: 20px; }
+
+.footer-info {
+  text-align: right; }
+
+@media (max-width: 768px) {
+  /* Estilos responsivos para dispositivos móviles */
+  .container {
+    padding: 20px; }
+  h2 {
+    font-size: 24px; }
+  p {
+    font-size: 14px; }
+  nav {
+    padding: 0 20px; }
+  .menu li {
+    margin-left: 10px; }
+  /* Estilos responsivos para el header */
+  .logo img {
+    height: 30px; }
+  /* Estilos responsivos para el hero section */
+  #hero {
+    padding: 80px 0; }
+  h1 {
+    font-size: 32px; }
+  .cta-button {
+    font-size: 14px;
+    padding: 8px 16px; }
+  /* Estilos responsivos para las secciones */
+  .container {
+    padding: 20px; }
+  /* Estilos responsivos para el footer */
+  .footer-content {
+    flex-direction: column;
+    text-align: center; }
+  .footer-menu li {
+    margin-left: 0;
+    margin-bottom: 10px; } }
